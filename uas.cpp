@@ -58,7 +58,7 @@ void tambahTransaksi() {
             return;
         }
         if (kategori[jumlahTransaksi] == 2) {
-            kategori[jumlahTransaksi] = 5;   // Lainnya
+            kategori[jumlahTransaksi] = 5;
         }
     } else if (jenis[jumlahTransaksi] == 2) {
         cout << "Kategori:" << endl;
@@ -72,7 +72,7 @@ void tambahTransaksi() {
             cout << "Pilihan Tidak Valid!" << endl;
             return;
         }
-        kategori[jumlahTransaksi]++;         // 1-4 menjadi 2-5
+        kategori[jumlahTransaksi]++;
     } else {
         cin.clear(); cin.ignore(1000, '\n');
         cout << "Harus menginputkan 1 atau 2." << endl;
@@ -157,7 +157,7 @@ void ubahTransaksi() {
             return;
         }
         if (kategoriBaru == 2) {
-            kategoriBaru = 5;   // Lainnya
+            kategoriBaru = 5;
         }
     } else if (jenisBaru == 2) {
         cout << "Kategori:" << endl;
@@ -171,7 +171,7 @@ void ubahTransaksi() {
             cout << "Pilihan Tidak Valid!" << endl;
             return;
         }
-        kategoriBaru++;         // 1-4 menjadi 2-5
+        kategoriBaru++;  
     } else {
         cin.clear(); cin.ignore(1000, '\n');
         cout << "Harus menginputkan 1 atau 2." << endl;
